@@ -2,15 +2,11 @@ import 'package:flutter/material.dart';
 
 // main function is the starting point of Flutter app
 void main() {
-  runApp(
-    MainPage();
-  );
+  runApp(MainPage());
 }
 
 class MainPage extends StatefulWidget {
-  _MainPageState create() {
-    _MainPageState();
-  }
+  _MainPageState createState() => _MainPageState();
 }
 
 class _MainPageState extends State<MainPage> {
