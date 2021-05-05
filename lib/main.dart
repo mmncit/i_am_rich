@@ -2,8 +2,17 @@ import 'package:flutter/material.dart';
 
 // main function is the starting point of Flutter app
 void main() {
-  runApp(
-    MaterialApp(
+  runApp(MainPage());
+}
+
+class MainPage extends StatefulWidget {
+  _MainPageState createState() => _MainPageState();
+}
+
+class _MainPageState extends State<MainPage> {
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
       home: Scaffold(
         appBar: AppBar(title: Text("I am Rich")),
         body: Center(
@@ -12,6 +21,6 @@ void main() {
           ),
         ),
       ),
-    ),
-  );
+    );
+  }
 }
