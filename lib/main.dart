@@ -14,6 +14,7 @@ class _MainPageState extends State<MainPage> {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
+        backgroundColor: Colors.teal,
         appBar: AppBar(title: Text("I am Rich")),
         body: Center(
           child: Image(
