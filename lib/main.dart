@@ -16,10 +16,22 @@ class _MainPageState extends State<MainPage> {
       home: Scaffold(
         backgroundColor: Colors.teal,
         appBar: AppBar(title: Text("I am Rich")),
-        body: Center(
-          child: Image(
-            image: AssetImage('images/diamond.png'),
-          ),
+        body: Column(
+          children: <Widget>[
+            Expanded(
+              child: Center(
+                child: Text(
+                    "I am rich\nI deserve it\nI am good\nhealthy & successful"),
+              ),
+            ),
+            Expanded(
+              child: Center(
+                child: Image(
+                  image: AssetImage("images/diamond.png"),
+                ),
+              ),
+            ),
+          ],
         ),
       ),
     );
